@@ -15,6 +15,7 @@
 		06277EB21D35E8C60050816F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06277EB01D35E8C60050816F /* LaunchScreen.storyboard */; };
 		06277EBD1D35E8C60050816F /* block___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06277EBC1D35E8C60050816F /* block___Tests.m */; };
 		06277EC81D35E8C60050816F /* block___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06277EC71D35E8C60050816F /* block___UITests.m */; };
+		06277ED71D35EB9B0050816F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 06277ED61D35EB9B0050816F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		06277EC31D35E8C60050816F /* block的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06277EC71D35E8C60050816F /* block___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "block___UITests.m"; sourceTree = "<group>"; };
 		06277EC91D35E8C60050816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06277ED51D35EB9B0050816F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		06277ED61D35EB9B0050816F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				06277EA61D35E8C60050816F /* AppDelegate.m */,
 				06277EA81D35E8C60050816F /* ViewController.h */,
 				06277EA91D35E8C60050816F /* ViewController.m */,
+				06277ED51D35EB9B0050816F /* Person.h */,
+				06277ED61D35EB9B0050816F /* Person.m */,
 				06277EAB1D35E8C60050816F /* Main.storyboard */,
 				06277EAE1D35E8C60050816F /* Assets.xcassets */,
 				06277EB01D35E8C60050816F /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				06277EAA1D35E8C60050816F /* ViewController.m in Sources */,
 				06277EA71D35E8C60050816F /* AppDelegate.m in Sources */,
+				06277ED71D35EB9B0050816F /* Person.m in Sources */,
 				06277EA41D35E8C60050816F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				06277ECE1D35E8C60050816F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06277ECF1D35E8C60050816F /* Build configuration list for PBXNativeTarget "block的使用Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				06277ED11D35E8C60050816F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06277ED21D35E8C60050816F /* Build configuration list for PBXNativeTarget "block的使用UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				06277ED41D35E8C60050816F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
